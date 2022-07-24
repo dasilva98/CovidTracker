@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CovidTracker</string>
+
+    <!--Drawer Header-->
+    <string name="header_tile">Título</string>
+    <string name="header_subtile">Isto é o nosso Drawer de Navegação</string>
+
+    <!--Drawer Menu-->
+    <string name="dashboard">Dashboard</string>
+    <string name="list_test">Lista de Testes</string>
+    <string name="contacts">Contatos</string>
+    <string name="settings">Definições</string>
+
+    <!--Settings-->
+    <string name="category_title">General</string>
+    <string name="battery_low">Apenas quando a bateria está fraca!</string>
+
+    <!--Toolbar Text-->
+    <string name="form_test">Formulário de Teste</string>
+    <string name="detail_test">Detalhes do Teste</string>
+
+    <!--Dashboard-->
+    <string name="confirmed">Casos Confirmados</string>
+    <string name="deaths">Óbitos</string>
+    <string name="recovered">Recuperados</string>
+    <string name="hospitalized">Internados</string>
+    <string name="hospitalized_icu">Internados ICU</string>
+
+    <!--Button Text-->
+    <string name="saveTestButton">Submeter</string>
+    <string name="sortDateButton">Ordenar Data</string>
+    <string name="riskButton">Sem Risco</string>
+
+    <!--Input Label-->
+    <string name="testResultLabel">Resultado</string>
+    <string name="testDateLabel">Data</string>
+    <string name="testLocalityLabel">Local</string>
+
+    <!-- inputHint -->
+    <string name="testDateHint">dd/mm/aaaa</string>
+    <string name="testLocalityHint">e.g. Lisboa</string>
+
+    <!--Radio Button Option-->
+    <string name="radio_button_positive">Positivo</string>
+    <string name="radio_button_negative">Negativo</string>
+
+    <!--Field Errors-->
+    <string name="field_empty">Campo obrigatório</string>
+
+    <!--Toast Messages-->
+    <string name="registeredTest">Teste registado com sucesso!</string>
+
+    <!--Widget title-->
+    <string name="title_imageResult">Fotografia do Resultado:</string>
+    <string name="title_result">Resultado:</string>
+    <string name="title_local">Local:</string>
+    <string name="title_date">Data:</string>
+
+    <!--Contacts-->
+    <string name="title_phoneContacts">Contactos telefónicos COVID19</string>
+    <string name="contact_text1">Linha SNS 24 para triagem de sintomas e esclarecimento de dúvidas sobre COVID-19.</string>
+    <string name="contact_text2">Linha Segurança Social para esclarecimentos sobre assistência à família, subsidio de doença e quarentena.</string>
+    <string name="contact_text3">Gabinete de Emergência Consular.</string>
+    <string name="title_digitalContacts">Contactos Digitais COVID19</string>
+    <string name="contact_text4">Plataforma da DGS para esclarecimentos sobre a COVID-19.</string>
+    <string name="contact_text5">Canal SNS 24 para esclarecimentos de dúvidas. Não utilizar para diagnóstico médico.</string>
+    <string name="contact_text6">Gabinete de Emergência Consular.</string>
+    <string name="contact_text7">Área do Diário da República Eletrónico dedicada à legislação relativa à pandemia.</string>
+    <string name="covid19_legislation"><a href="https://dre.pt/legislacao-covid-19">COVID19 Legislation</a></string>
+
+    <string name="plus_icon">Icone Mais</string>
+    <string name="icon_do_resultado">Icone do Resultado</string>>
+    <string name="descripton_image_result">Imagem do Resultado</string>
+    <string name="total_inoculations">Inoculações Totais</string>
+    <string name="first_inoculation">1ª Inoculação</string>
+    <string name="second_inoculation">2ª Inoculação</string>
+    <string name="people">Pessoas</string>
+    <string name="data_from_last_24h">Últimas 24h</string>
+    <string name="vaccines">Vacinas</string>
+
+    <!--Take Pictute-->
+    <string name="take_picture_button">Tirar Fotografia</string>
+
+    <!--Counties-->
+    <string name="counties">Concelhos</string>
+    <string name="incidence">Casos/100mil habitantes: </string>
+    <string name="riskLevel">Nível de risco: </string>
+    <string name="cases14days">Confirmados nos últimos 14 dias: </string>
+    <string name="population">População: </string>
+    <string name="ex_cascais_chaves_montijo">Ex.: Cascais, Chaves, Montijo</string>
+    <string name="danger_level">Grau de Incidência:</string>
+    <string name="every_level">Todos os Graus</string>
+    <string name="search">Procurar</string>
+    <string name="or">OU</string>
+    <string name="incidence_interval">Intervalo de Incidência:</string>
+    <string-array name="danger_levels_dropdown">
+        <item>Todos os Graus</item>
+        <item>Baixo a Moderado</item>
+        <item>Moderado</item>
+        <item>Elevado</item>
+        <item>Muito Elevado</item>
+        <item>Extremamente Elevado</item>
+    </string-array>
+    <string-array name="counties_array">
+        <item>Abrantes</item>
+        <item>Águeda</item>
+        <item>Aguiar da Beira</item>
+        <item>Alandroal</item>
+        <item>Albergaria-a-Velha</item>
+        <item>Albufeira</item>
+        <item>Alcácer do Sal</item>
+        <item>Alcanena</item>
+        <item>Alcobaça</item>
+        <item>Alcochete</item>
+        <item>Alcoutim</item>
+        <item>Alenquer</item>
+        <item>Alfândega da Fé</item>
+        <item>Alijó</item>
+        <item>Aljezur</item>
+        <item>Aljustrel</item>
+        <item>Almada</item>
+        <item>Almeida</item>
+        <item>Almeirim</item>
+        <item>Almodôvar</item>
+        <item>Alpiarça</item>
+        <item>Alter do Chão</item>
+        <item>Alvaiázere</item>
+        <item>Alvito</item>
+        <item>Amadora</item>
+        <item>Amarante</item>
+        <item>Amares</item>
+        <item>Anadia</item>
+        <item>Angra do Heroísmo</item>
+        <item>Ansião</item>
+        <item>Arcos de Valdevez</item>
+        <item>Arganil</item>
+        <item>Armamar</item>
+        <item>Arouca</item>
+        <item>Arraiolos</item>
+        <item>Arronches</item>
+        <item>Arruda dos Vinhos</item>
+        <item>Aveiro</item>
+        <item>Avis</item>
+        <item>Azambuja</item>
+        <item>Baião</item>
+        <item>Barcelos</item>
+        <item>Barrancos</item>
+        <item>Barreiro</item>
+        <item>Batalha</item>
+        <item>Beja</item>
+        <item>Belmonte</item>
+        <item>Benavente</item>
+        <item>Bombarral</item>
+        <item>Borba</item>
+        <item>Boticas</item>
+        <item>Braga</item>
+        <item>Bragança</item>
+        <item>Cabeceiras de Basto</item>
+        <item>Cadaval</item>
+        <item>Caldas da Rainha</item>
+        <item>Calheta</item>
+        <item>Calheta (Açores)</item>
+        <item>Câmara de Lobos</item>
+        <item>Caminha</item>
+        <item>Campo Maior</item>
+        <item>Cantanhede</item>
+        <item>Carrazeda de Ansiães</item>
+        <item>Carregal do Sal</item>
+        <item>Cartaxo</item>
+        <item>Cascais</item>
+        <item>Castanheira de Pera</item>
+        <item>Castelo Branco</item>
+        <item>Castelo de Paiva</item>
+        <item>Castelo de Vide</item>
+        <item>Castro Daire</item>
+        <item>Castro Marim</item>
+        <item>Castro Verde</item>
+        <item>Celorico da Beira</item>
+        <item>Celorico de Basto</item>
+        <item>Chamusca</item>
+        <item>Chaves</item>
+        <item>Cinfães</item>
+        <item>Coimbra</item>
+        <item>Condeixa-a-Nova</item>
+        <item>Constância</item>
+        <item>Coruche</item>
+        <item>Corvo</item>
+        <item>Covilhã</item>
+        <item>Crato</item>
+        <item>Cuba</item>
+        <item>Elvas</item>
+        <item>Entroncamento</item>
+        <item>Espinho</item>
+        <item>Esposende</item>
+        <item>Estarreja</item>
+        <item>Estremoz</item>
+        <item>Évora</item>
+        <item>Fafe</item>
+        <item>Faro</item>
+        <item>Felgueiras</item>
+        <item>Ferreira do Alentejo</item>
+        <item>Ferreira do Zêzere</item>
+        <item>Figueira da Foz</item>
+        <item>Figueira de Castelo Rodrigo</item>
+        <item>Figueiró dos Vinhos</item>
+        <item>Fornos de Algodres</item>
+        <item>Freixo de Espada à Cinta</item>
+        <item>Fronteira</item>
+        <item>Funchal</item>
+        <item>Fundão</item>
+        <item>Gavião</item>
+        <item>Góis</item>
+        <item>Golegã</item>
+        <item>Gondomar</item>
+        <item>Gouveia</item>
+        <item>Grândola</item>
+        <item>Guarda</item>
+        <item>Guimarães</item>
+        <item>Horta</item>
+        <item>Idanha-a-Nova</item>
+        <item>Ílhavo</item>
+        <item>Lagoa (Faro)</item>
+        <item>Lagoa</item>
+        <item>Lagos</item>
+        <item>Lajes das Flores</item>
+        <item>Lajes do Pico</item>
+        <item>Lamego</item>
+        <item>Leiria</item>
+        <item>Lisboa</item>
+        <item>Loulé</item>
+        <item>Loures</item>
+        <item>Lourinhã</item>
+        <item>Lousã</item>
+        <item>Lousada</item>
+        <item>Mação</item>
+        <item>Macedo de Cavaleiros</item>
+        <item>Machico</item>
+        <item>Madalena</item>
+        <item>Mafra</item>
+        <item>Maia</item>
+        <item>Mangualde</item>
+        <item>Manteigas</item>
+        <item>Marco de Canaveses</item>
+        <item>Marinha Grande</item>
+        <item>Marvão</item>
+        <item>Matosinhos</item>
+        <item>Mealhada</item>
+        <item>Mêda</item>
+        <item>Melgaço</item>
+        <item>Mértola</item>
+        <item>Mesão Frio</item>
+        <item>Mira</item>
+        <item>Miranda do Corvo</item>
+        <item>Miranda do Douro</item>
+        <item>Mirandela</item>
+        <item>Mogadouro</item>
+        <item>Moimenta da Beira</item>
+        <item>Moita</item>
+        <item>Monção</item>
+        <item>Monchique</item>
+        <item>Mondim de Basto</item>
+        <item>Monforte</item>
+        <item>Montalegre</item>
+        <item>Montemor-o-Novo</item>
+        <item>Montemor-o-Velho</item>
+        <item>Montijo</item>
+        <item>Mora</item>
+        <item>Mortágua</item>
+        <item>Moura</item>
+        <item>Mourão</item>
+        <item>Murça</item>
+        <item>Murtosa</item>
+        <item>Nazaré</item>
+        <item>Nelas</item>
+        <item>Nisa</item>
+        <item>Nordeste</item>
+        <item>Óbidos</item>
+        <item>Odemira</item>
+        <item>Odivelas</item>
+        <item>Oeiras</item>
+        <item>Oleiros</item>
+        <item>Olhão</item>
+        <item>Oliveira de Azeméis</item>
+        <item>Oliveira de Frades</item>
+        <item>Oliveira do Hospital</item>
+        <item>Oliveira do Bairro</item>
+        <item>Ourém</item>
+        <item>Ourique</item>
+        <item>Ovar</item>
+        <item>Paços de Ferreira</item>
+        <item>Palmela</item>
+        <item>Pampilhosa da Serra</item>
+        <item>Paredes</item>
+        <item>Paredes de Coura</item>
+        <item>Pedrógão Grande</item>
+        <item>Penacova</item>
+        <item>Penafiel</item>
+        <item>Penalva do Castelo</item>
+        <item>Penamacor</item>
+        <item>Penedono</item>
+        <item>Penela</item>
+        <item>Peniche</item>
+        <item>Peso da Régua</item>
+        <item>Pombal</item>
+        <item>Ponta Delgada</item>
+        <item>Ponta do Sol</item>
+        <item>Ponte da Barca</item>
+        <item>Ponte de Lima</item>
+        <item>Ponte de Sor</item>
+        <item>Portalegre</item>
+        <item>Portel</item>
+        <item>Portimão</item>
+        <item>Porto</item>
+        <item>Porto de Mós</item>
+        <item>Porto Moniz</item>
+        <item>Porto Santo</item>
+        <item>Póvoa de Lanhoso</item>
+        <item>Póvoa de Varzim</item>
+        <item>Povoação</item>
+        <item>Praia da Vitória</item>
+        <item>Proença-a-Nova</item>
+        <item>Redondo</item>
+        <item>Reguengos de Monsaraz</item>
+        <item>Resende</item>
+        <item>Ribeira Brava</item>
+        <item>Ribeira de Pena</item>
+        <item>Ribeira Grande</item>
+        <item>Rio Maior</item>
+        <item>Sabrosa</item>
+        <item>Sabugal</item>
+        <item>Salvaterra de Magos</item>
+        <item>Santa Comba Dão</item>
+        <item>Santa Cruz</item>
+        <item>Santa Cruz da Graciosa</item>
+        <item>Santa Cruz das Flores</item>
+        <item>Santa Maria da Feira</item>
+        <item>Santa Marta de Penaguião</item>
+        <item>Santana</item>
+        <item>Santarém</item>
+        <item>Santiago do Cacém</item>
+        <item>Santo Tirso</item>
+        <item>São Brás de Alportel</item>
+        <item>São João da Pesqueira</item>
+        <item>São João da Madeira</item>
+        <item>São Pedro do Sul</item>
+        <item>São Roque do Pico</item>
+        <item>São Vicente</item>
+        <item>Sardoal</item>
+        <item>Sátão</item>
+        <item>Seia</item>
+        <item>Seixal</item>
+        <item>Sernancelhe</item>
+        <item>Serpa</item>
+        <item>Sertã</item>
+        <item>Sesimbra</item>
+        <item>Setúbal</item>
+        <item>Sever do Vouga</item>
+        <item>Silves</item>
+        <item>Sines</item>
+        <item>Sintra</item>
+        <item>Sobral de Monte Agraço</item>
+        <item>Soure</item>
+        <item>Sousel</item>
+        <item>Tábua</item>
+        <item>Tabuaço</item>
+        <item>Tarouca</item>
+        <item>Tavira</item>
+        <item>Terras de Bouro</item>
+        <item>Tomar</item>
+        <item>Tondela</item>
+        <item>Torre de Moncorvo</item>
+        <item>Torres Vedras</item>
+        <item>Torres Novas</item>
+        <item>Trancoso</item>
+        <item>Trofa</item>
+        <item>Vagos</item>
+        <item>Vale de Cambra</item>
+        <item>Valença</item>
+        <item>Valongo</item>
+        <item>Valpaços</item>
+        <item>Velas</item>
+        <item>Vendas Novas</item>
+        <item>Viana do Alentejo</item>
+        <item>Viana do Castelo</item>
+        <item>Vidigueira</item>
+        <item>Vieira do Minho</item>
+        <item>Vila do Conde</item>
+        <item>Vila de Rei</item>
+        <item>Vila do Bispo</item>
+        <item>Vila do Porto</item>
+        <item>Vila Flor</item>
+        <item>Vila Franca de Xira</item>
+        <item>Vila Franca do Campo</item>
+        <item>Vila Nova da Barquinha</item>
+        <item>Vila Nova de Cerveira</item>
+        <item>Vila Nova de Poiares</item>
+        <item>Vila Nova de Famalicão</item>
+        <item>Vila Nova de Foz Côa</item>
+        <item>Vila Nova de Gaia</item>
+        <item>Vila Nova de Paiva</item>
+        <item>Vila Pouca de Aguiar</item>
+        <item>Vila Real</item>
+        <item>Vila Real de Santo António</item>
+        <item>Vila Velha de Ródão</item>
+        <item>Vila Verde</item>
+        <item>Vila Viçosa</item>
+        <item>Vimioso</item>
+        <item>Vinhais</item>
+        <item>Viseu</item>
+        <item>Vizela</item>
+        <item>Vouzela</item>
+    </string-array>
+</resources>

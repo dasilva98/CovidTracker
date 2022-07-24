@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="80dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.fragments.FormTestFragment">
+
+    <ImageView
+        android:id="@+id/imageTest"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_default_image">
+    </ImageView>
+
+    <Button
+        android:id="@+id/take_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/take_picture_button"
+        android:backgroundTint="@color/grey"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testResultLabel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/Negative"
+        android:layout_marginBottom="10dp">
+        <RadioButton
+            android:id="@+id/Negative"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/radio_button_negative"/>
+        <RadioButton
+            android:id="@+id/Positive"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/radio_button_positive"/>
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_testLocality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:hint="@string/testLocalityLabel"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_testLocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_testDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:hint="@string/testDateLabel"
+        app:startIconDrawable="@drawable/ic_calendar_24"
+        app:startIconTint="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_testDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/saveTestButton"/>
+
+</LinearLayout>

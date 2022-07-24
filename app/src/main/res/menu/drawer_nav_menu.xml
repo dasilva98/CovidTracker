@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/last24hFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard"/>
+    <item
+        android:id="@+id/testsFragment"
+        android:icon="@drawable/ic_list_bulleted"
+        android:title="@string/list_test"/>
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/contacts"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"/>
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/last24hFragment">
+
+    <fragment
+        android:id="@+id/last24hFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.Last24hFragment"
+        android:label="@string/data_from_last_24h"
+        tools:layout="@layout/fragment_last24h" />
+    <fragment
+        android:id="@+id/testsFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.TestsFragment"
+        android:label="@string/list_test"
+        tools:layout="@layout/fragment_tests" >
+        <action
+            android:id="@+id/action_testsFragment_to_formTestFragment"
+            app:destination="@id/formTestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_testsFragment_to_detailTestFragment"
+            app:destination="@id/detailTestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+    android:id="@+id/contactsFragment"
+    android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.ContactsFragment"
+    android:label="@string/contacts"
+    tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/formTestFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.FormTestFragment"
+        android:label="@string/form_test"
+        tools:layout="@layout/fragment_form_test">
+        <action
+            android:id="@+id/action_formTestFragment_to_testsFragment"
+            app:destination="@id/testsFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTestFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.DetailTestFragment"
+        android:label="@string/detail_test"
+        tools:layout="@layout/fragment_detail_test" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/vaccinesFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.VaccinesFragment"
+        android:label="@string/vaccines"
+        tools:layout="@layout/fragment_vaccines" />
+    <fragment
+        android:id="@+id/countiesFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.CountiesFragment"
+        android:label="@string/counties"
+        tools:layout="@layout/fragment_counties"/>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="pt.ulusofona.deisi.a2020.cm.g15.ui.fragments.SettingsFragment"
+        android:label="@string/settings" />
+</navigation>
